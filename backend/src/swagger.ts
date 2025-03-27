@@ -13,7 +13,7 @@ export function setupSwagger(app: Express) {
       },
       servers: [
         {
-          url: "http://localhost:4000", // Update with your actual server URL
+          url: "http://localhost:4000", 
         },
       ],
       components: {
@@ -31,7 +31,7 @@ export function setupSwagger(app: Express) {
         },
       ],
     },
-    apis: ["./src/index.ts"], // Ensure your file paths are correct
+    apis: ["./src/index.ts"],
   };
 
   const specs = swaggerJsDoc(options);
