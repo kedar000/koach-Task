@@ -27,8 +27,8 @@ Ensure you have the following installed:
 
 ### 2️⃣ Clone the Repository
 ```sh
-git clone https://github.com/yourusername/your-repo.git
-cd your-repo
+git clone https://github.com/kedar000/koach-Task.git
+cd cd koach-Task/backend
 ```
 
 ### 3️⃣ Install Dependencies
@@ -37,16 +37,15 @@ npm install
 ```
 
 ### 4️⃣ Set Up Data Base
-Create a `.env` file in the root directory and add the following:
-```env
-PORT=4000
-DATABASE_URL=postgresql://yourusername:yourpassword@localhost:5432/yourdatabase
-SECRET_KEY=your-secret-key
-```
+Navigate to backend/src/db/prisma/schema.prisma file and update the database url in that file 
 
 ### 5️⃣ Run Database Migrations (Prisma)
 ```sh
+cd src/db
+```
+```sh
 npx prisma migrate dev --name init
+npx prisma generate
 ```
 
 ### 6️⃣ Start the Server
@@ -87,20 +86,5 @@ npm test
 
 ---
 
-## 🚀 Deployment
-You can deploy this project to:
-- **Render**
-- **Railway**
-- **Vercel**
-- **AWS EC2**
 
-Ensure you set environment variables in the deployment environment.
-
----
-
-## 📜 License
-This project is licensed under the MIT License.
-
----
-
-### 🌟 Like this project? Give it a ⭐ on GitHub!
+### Have a nice day;
