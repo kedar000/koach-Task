@@ -10,10 +10,9 @@ This is a REST API for user authentication built with Node.js, Express, and Post
 ✅ Get User Profile  
 ✅ Update User Profile  
 ✅ Delete User Account  
-✅ API Documentation with Swagger  
-✅ Input Validation with express-validator  
+✅ API Documentation with Swagger   
 ✅ Error Handling Middleware  
-✅ Unit Testing with Jest  
+
 
 ---
 
@@ -28,7 +27,7 @@ Ensure you have the following installed:
 ### 2️⃣ Clone the Repository
 ```sh
 git clone https://github.com/kedar000/koach-Task.git
-cd cd koach-Task/backend
+cd  koach-Task/backend
 ```
 
 ### 3️⃣ Install Dependencies
@@ -75,13 +74,6 @@ The server will run on `http://localhost:4000` 🚀
 Once the server is running, visit:
 ```
 http://localhost:4000/api-docs
-```
-
----
-
-## 🧪 Running Tests
-```sh
-npm test
 ```
 
 ---
